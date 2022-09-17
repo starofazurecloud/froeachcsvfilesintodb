@@ -1,0 +1,15 @@
+{
+	"name": "covid-reporting-adf-sea",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "7761d73e-00bc-4c48-ac6c-8149ca514615",
+		"tenantId": "7a9a2b90-a731-4800-a4f0-46ddb6f7d715",
+		"userAssignedIdentities": {
+			"/subscriptions/1101ab50-b9a6-4719-afe5-7586e598ea9f/resourcegroups/covid-reporting-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/adf-managed-identity-sea": {
+				"clientId": "3035a8a2-97f3-433c-9d06-d07d7c687035",
+				"principalId": "d88b40cf-d9df-46c7-bbee-7848dc5d9a66"
+			}
+		}
+	}
+}

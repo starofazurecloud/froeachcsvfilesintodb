@@ -1,0 +1,16 @@
+{
+	"name": "ls_covid_reportins_sa",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://covidreportingsaseasia.blob.core.windows.net/",
+			"accountKind": "StorageV2",
+			"credential": {
+				"referenceName": "managedidentity",
+				"type": "CredentialReference"
+			}
+		}
+	}
+}

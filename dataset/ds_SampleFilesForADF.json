@@ -1,0 +1,24 @@
+{
+	"name": "ds_SampleFilesForADF",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_covid_reportins_sa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "SampleFilesbyMe",
+				"container": "samplefilesforadf"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
